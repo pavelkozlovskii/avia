@@ -1,0 +1,30 @@
+.app-container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.tickets-search {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tickets-output {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+@media(min-width: 900px) {
+  .app-container {
+    width: 754px;
+    margin: 0 auto;
+  }
+
+  .tickets-search {
+   flex-direction: row;
+    justify-content: space-between;
+
+  }
+}
